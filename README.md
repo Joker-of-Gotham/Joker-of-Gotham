@@ -53,15 +53,15 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Joker-of-Gotham&show_icons=true&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=c9d1d9&rank_icon=github" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Joker-of-Gotham&show_icons=true&hide_border=true&bg_color=ffffff&title_color=6366f1&icon_color=6366f1&text_color=24292f&rank_icon=github" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Joker-of-Gotham&show_icons=true&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=c9d1d9&rank_icon=github" alt="GitHub Stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg" />
+  <img height="180" src="./profile/stats-dark.svg" alt="GitHub Stats" />
 </picture>
 &nbsp;&nbsp;
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Joker-of-Gotham&hide_border=true&background=0d1117&ring=818cf8&fire=818cf8&currStreakLabel=818cf8&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6b7280" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Joker-of-Gotham&hide_border=true&background=ffffff&ring=6366f1&fire=6366f1&currStreakLabel=6366f1&sideLabels=24292f&currStreakNum=24292f&sideNums=24292f&dates=6b7280" />
-  <img height="180" src="https://streak-stats.demolab.com?user=Joker-of-Gotham&hide_border=true&background=0d1117&ring=818cf8&fire=818cf8&currStreakLabel=818cf8&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6b7280" alt="GitHub Streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/streak-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/streak-light.svg" />
+  <img height="180" src="./profile/streak-dark.svg" alt="GitHub Streak" />
 </picture>
 
 </div>
@@ -73,43 +73,50 @@
 
 ### &nbsp;🌟 Featured Projects
 
-<br/>
-
-<a href="https://github.com/Moonweave-AI/virea">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Moonweave-AI&repo=virea&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=c9d1d9" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Moonweave-AI&repo=virea&hide_border=true&bg_color=ffffff&title_color=6366f1&icon_color=6366f1&text_color=24292f" />
-    <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=Moonweave-AI&repo=virea&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=c9d1d9" alt="virea" />
-  </picture>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/Joker-of-Gotham/Zanao-LLM-Analyzer">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Joker-of-Gotham&repo=Zanao-LLM-Analyzer&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=c9d1d9" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Joker-of-Gotham&repo=Zanao-LLM-Analyzer&hide_border=true&bg_color=ffffff&title_color=6366f1&icon_color=6366f1&text_color=24292f" />
-    <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=Joker-of-Gotham&repo=Zanao-LLM-Analyzer&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=c9d1d9" alt="Zanao-LLM-Analyzer" />
-  </picture>
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/Joker-of-Gotham/gitdex">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Joker-of-Gotham&repo=gitdex&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=c9d1d9" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Joker-of-Gotham&repo=gitdex&hide_border=true&bg_color=ffffff&title_color=6366f1&icon_color=6366f1&text_color=24292f" />
-    <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=Joker-of-Gotham&repo=gitdex&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=c9d1d9" alt="gitdex" />
-  </picture>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/Joker-of-Gotham/termvis">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Joker-of-Gotham&repo=termvis&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=c9d1d9" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Joker-of-Gotham&repo=termvis&hide_border=true&bg_color=ffffff&title_color=6366f1&icon_color=6366f1&text_color=24292f" />
-    <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=Joker-of-Gotham&repo=termvis&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=c9d1d9" alt="termvis" />
-  </picture>
-</a>
-
 </div>
+
+<table align="center">
+<tr>
+<td width="50%">
+
+**[🔮 Moonweave-AI / virea](https://github.com/Moonweave-AI/virea)**
+
+VRM-native motion model for interactive embodied avatars — text & dialogue to continuous skeletal motion.
+
+[![Stars](https://img.shields.io/github/stars/Moonweave-AI/virea?style=flat-square&color=818cf8&labelColor=1a1b27)](https://github.com/Moonweave-AI/virea) [![Language](https://img.shields.io/github/languages/top/Moonweave-AI/virea?style=flat-square&color=818cf8&labelColor=1a1b27)](https://github.com/Moonweave-AI/virea)
+
+</td>
+<td width="50%">
+
+**[📊 Zanao-LLM-Analyzer](https://github.com/Joker-of-Gotham/Zanao-LLM-Analyzer)**
+
+赞哦校园集市 LLM 分析助手 — 信息提取、热帖追踪、智能分类。
+
+[![Stars](https://img.shields.io/github/stars/Joker-of-Gotham/Zanao-LLM-Analyzer?style=flat-square&color=818cf8&labelColor=1a1b27)](https://github.com/Joker-of-Gotham/Zanao-LLM-Analyzer) [![Language](https://img.shields.io/github/languages/top/Joker-of-Gotham/Zanao-LLM-Analyzer?style=flat-square&color=818cf8&labelColor=1a1b27)](https://github.com/Joker-of-Gotham/Zanao-LLM-Analyzer)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[🔧 gitdex](https://github.com/Joker-of-Gotham/gitdex)**
+
+A local-first Git workbench driven by LLM — keeps the full decision loop visible.
+
+[![Stars](https://img.shields.io/github/stars/Joker-of-Gotham/gitdex?style=flat-square&color=818cf8&labelColor=1a1b27)](https://github.com/Joker-of-Gotham/gitdex) [![Language](https://img.shields.io/github/languages/top/Joker-of-Gotham/gitdex?style=flat-square&color=818cf8&labelColor=1a1b27)](https://github.com/Joker-of-Gotham/gitdex)
+
+</td>
+<td width="50%">
+
+**[🖥️ termvis](https://github.com/Joker-of-Gotham/termvis)**
+
+Schema-first digital soul runtime & visual terminal layer for AI CLIs.
+
+[![Stars](https://img.shields.io/github/stars/Joker-of-Gotham/termvis?style=flat-square&color=818cf8&labelColor=1a1b27)](https://github.com/Joker-of-Gotham/termvis) [![Language](https://img.shields.io/github/languages/top/Joker-of-Gotham/termvis?style=flat-square&color=818cf8&labelColor=1a1b27)](https://github.com/Joker-of-Gotham/termvis)
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -121,9 +128,9 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Joker-of-Gotham/Joker-of-Gotham/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Joker-of-Gotham/Joker-of-Gotham/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/Joker-of-Gotham/Joker-of-Gotham/output/github-snake-dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/snake.svg" />
+  <img alt="Snake animation" src="./profile/snake-dark.svg" width="100%" />
 </picture>
 
 </div>

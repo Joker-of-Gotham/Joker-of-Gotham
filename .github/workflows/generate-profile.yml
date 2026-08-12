@@ -1,0 +1,71 @@
+name: Generate Profile Assets
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create output directory
+        run: mkdir -p profile
+
+      # ── GitHub Stats ──
+      - name: Generate stats card (dark)
+        uses: readme-tools/github-readme-stats-action@main
+        with:
+          cards: |
+            stats
+              options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=c9d1d9&rank_icon=github
+              path: profile/stats-dark.svg
+
+      - name: Generate stats card (light)
+        uses: readme-tools/github-readme-stats-action@main
+        with:
+          cards: |
+            stats
+              options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=ffffff&title_color=6366f1&icon_color=6366f1&text_color=24292f&rank_icon=github
+              path: profile/stats-light.svg
+
+      # ── Streak Stats ──
+      - name: Generate streak stats (dark)
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&hide_border=true&background=0d1117&ring=818cf8&fire=818cf8&currStreakLabel=818cf8&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6b7280
+          path: profile/streak-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak stats (light)
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&hide_border=true&background=ffffff&ring=6366f1&fire=6366f1&currStreakLabel=6366f1&sideLabels=24292f&currStreakNum=24292f&sideNums=24292f&dates=6b7280
+          path: profile/streak-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── Contribution Snake ──
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/snake.svg
+            profile/snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── Commit ──
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/
+          git commit -m "chore: update profile assets" || exit 0
+          git push
