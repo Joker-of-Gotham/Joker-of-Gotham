@@ -22,18 +22,16 @@ jobs:
       - name: Generate stats card (dark)
         uses: readme-tools/github-readme-stats-action@main
         with:
-          cards: |
-            stats
-              options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=c9d1d9&rank_icon=github
-              path: profile/stats-dark.svg
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=0d1117&title_color=818cf8&icon_color=818cf8&text_color=c9d1d9&rank_icon=github
+          path: profile/stats-dark.svg
 
       - name: Generate stats card (light)
         uses: readme-tools/github-readme-stats-action@main
         with:
-          cards: |
-            stats
-              options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=ffffff&title_color=6366f1&icon_color=6366f1&text_color=24292f&rank_icon=github
-              path: profile/stats-light.svg
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=ffffff&title_color=6366f1&icon_color=6366f1&text_color=24292f&rank_icon=github
+          path: profile/stats-light.svg
 
       # ── Streak Stats ──
       - name: Generate streak stats (dark)
